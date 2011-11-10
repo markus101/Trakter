@@ -1,0 +1,40 @@
+﻿    [
+    {
+    "date":"2011-04-16",
+    "episodes":[
+    {
+    "show":{
+    "title":"Britain's Got Talent",
+    "year":2007,
+    "url":"http://trakt.tv/show/britains-got-talent",
+    "first_aired":1181372400,
+    "country":"United Kingdom",
+    "overview":"The search for the next big variety act in the UK is on with ITV's Britain's Got Talent. Popular comedians and hosts Ant and Dec join the judges Simon Cowell, Piers Morgan and Amanda Holden on this highly anticipated show that will culminate in not only a big cash prize of \u00a3100,000 for the winning act, but also a starring slot in a performance attended by Her Majesty the Queen.",
+    "runtime":60,
+    "network":"ITV2",
+    "air_day":"",
+    "air_time":"12:00am",
+    "certification":"",
+    "imdb_id":"tt1034201",
+    "tvdb_id":"80727",
+    "tvrage_id":"16137",
+    "images":{
+    "poster":"http://vicmackey.trakt.tv/images/posters/2760.jpg",
+    "fanart":"http://vicmackey.trakt.tv/images/fanart/2760.jpg"
+    }
+    },
+    "episode":{
+    "season":5,
+    "number":1,
+    "title":"Episode 1",
+    "overview":"",
+    "url":"http://trakt.tv/show/britains-got-talent/season/5/episode/1",
+    "first_aired":1302937200,
+    "images":{
+    "screen":"http://vicmackey.trakt.tv/images/fanart/2760-940.jpg"
+    }
+    }
+    }
+    ]
+    }
+    ]

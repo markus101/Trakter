@@ -1,0 +1,45 @@
+﻿    {
+    "show":{
+    "title":"The League",
+    "year":2009,
+    "url":"http://trakt.tv/show/the-league",
+    "first_aired":1256799600,
+    "country":"United States",
+    "overview":"Set against the backdrop of a Fantasy Football league The League, created by the husband-and-wife team of Jeff Schaffer (Curb Your Enthusiasm, Seinfeld) and Jackie Marcus Schaffer (Disturbia), is a comedy about marriage, male friendship, parenting, suburbia, and growing up\u2026 or refusing to grow up.",
+    "runtime":30,
+    "network":"FX",
+    "air_day":"Thursday",
+    "air_time":"10:30pm",
+    "certification":"TV-MA",
+    "imdb_id":"tt1480684",
+    "tvdb_id":"114701",
+    "tvrage_id":"24173",
+    "images":{
+    "poster":"http://vicmackey.trakt.tv/images/posters/51.jpg",
+    "fanart":"http://vicmackey.trakt.tv/images/fanart/51.jpg"
+    },
+    "ratings":{
+    "percentage":94,
+    "votes":36,
+    "loved":34,
+    "hated":2
+    }
+    },
+    "episode":{
+    "season":1,
+    "number":1,
+    "title":"The Draft",
+    "overview":"The League is starting up again and the guys are preparing for the big draft at Andre's downtown bachelor pad. Except Pete - the League's current champion and three time winner - who has to deal with the fact that his wife thought he wasn't going to play this year.",
+    "url":"http://trakt.tv/show/the-league/season/1/episode/1",
+    "first_aired":1256799600,
+    "images":{
+    "screen":"http://vicmackey.trakt.tv/images/episodes/51-1-1.jpg"
+    },
+    "ratings":{
+    "percentage":50,
+    "votes":1,
+    "loved":1,
+    "hated":1
+    }
+    }
+    }

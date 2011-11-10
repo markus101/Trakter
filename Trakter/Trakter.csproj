@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{42391511-447A-402A-93B6-2333A9B32460}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Trakter</RootNamespace>
+    <AssemblyName>Trakter</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.4.0.3\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Exceptions\TraktApiException.cs" />
+    <Compile Include="Fluent.cs" />
+    <Compile Include="JsonConverters\RatingTypeConverter.cs" />
+    <Compile Include="JsonConverters\EpochDateTimeConverter.cs" />
+    <Compile Include="JsonConverters\ResultStatusTypeConverter.cs" />
+    <Compile Include="JsonConverters\TraktDateTimeConverter.cs" />
+    <Compile Include="CryptoHelper.cs" />
+    <Compile Include="ErrorHelper.cs" />
+    <Compile Include="Exceptions\InvalidApiKeyException.cs" />
+    <Compile Include="Models\EpisodeInfo.cs" />
+    <Compile Include="Models\MediaCenterInfo.cs" />
+    <Compile Include="Models\Search\PeopleSearchResult.cs" />
+    <Compile Include="Models\Shout\ShoutEpisode.cs" />
+    <Compile Include="Models\Shout\ShoutMovie.cs" />
+    <Compile Include="Models\Shout\ShoutShow.cs" />
+    <Compile Include="Models\Show\EpisodeSummary.cs" />
+    <Compile Include="Models\Show\SeasonEpisodePair.cs" />
+    <Compile Include="Models\Show\ActionType.cs" />
+    <Compile Include="Models\TraktMovie.cs" />
+    <Compile Include="Models\Movies\TrendingMovie.cs" />
+    <Compile Include="Models\Movie\MovieSummary.cs" />
+    <Compile Include="Models\Persons\Actor.cs" />
+    <Compile Include="Models\Persons\People.cs" />
+    <Compile Include="Models\Persons\Writer.cs" />
+    <Compile Include="Models\Persons\GenericPerson.cs" />
+    <Compile Include="Models\Rate\RateShow.cs" />
+    <Compile Include="Models\Rate\RateMovie.cs" />
+    <Compile Include="Models\Rate\RateEpisode.cs" />
+    <Compile Include="Models\Rate\RateResult.cs" />
+    <Compile Include="Models\Recommendations\DismissShowResult.cs" />
+    <Compile Include="Models\Recommendations\DismissedShow.cs" />
+    <Compile Include="Models\Recommendations\ShowRecommendation.cs" />
+    <Compile Include="Models\Recommendations\DismissedMovie.cs" />
+    <Compile Include="Models\Recommendations\DismissMovieResult.cs" />
+    <Compile Include="Models\Recommendations\MovieRecommendation.cs" />
+    <Compile Include="Models\Search\EpisodeSearchResult.cs" />
+    <Compile Include="Models\TraktType.cs" />
+    <Compile Include="Models\RatingType.cs" />
+    <Compile Include="Models\TraktShout.cs" />
+    <Compile Include="Models\Movie\TraktMovieSearch.cs" />
+    <Compile Include="Models\Movie\MovieAddResult.cs" />
+    <Compile Include="Models\SimpleStatusResult.cs" />
+    <Compile Include="Models\Stats.cs" />
+    <Compile Include="Models\User\GenderType.cs" />
+    <Compile Include="Models\TraktUser.cs" />
+    <Compile Include="Providers\ShoutProvider.cs" />
+    <Compile Include="Providers\SearchProvider.cs" />
+    <Compile Include="Providers\RecommendationsProvider.cs" />
+    <Compile Include="Providers\RateProvider.cs" />
+    <Compile Include="Providers\MoviesProvider.cs" />
+    <Compile Include="Providers\MovieProvider.cs" />
+    <Compile Include="Providers\ShowProvider.cs" />
+    <Compile Include="Serializer.cs" />
+    <Compile Include="LowercaseContractResolver.cs" />
+    <Compile Include="Models\Calendar\CalendarRequest.cs" />
+    <Compile Include="Models\Calendar\Day.cs" />
+    <Compile Include="Models\TraktEpisode.cs" />
+    <Compile Include="Models\Calendar\ShowAndEpisode.cs" />
+    <Compile Include="Models\Genres\Genre.cs" />
+    <Compile Include="Models\Images.cs" />
+    <Compile Include="Models\Lists\ListItemRequest.cs" />
+    <Compile Include="Models\Lists\ListItemResult.cs" />
+    <Compile Include="Models\Lists\ListResult.cs" />
+    <Compile Include="Models\Lists\ListPrivacyType.cs" />
+    <Compile Include="Models\Ratings.cs" />
+    <Compile Include="Models\ResultStatusType.cs" />
+    <Compile Include="Models\TraktShow.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Providers\CalendarProvider.cs" />
+    <Compile Include="Providers\GenreProvider.cs" />
+    <Compile Include="Providers\HttpProvider.cs" />
+    <Compile Include="Providers\ListProvider.cs" />
+    <Compile Include="JsonConverters\ListPrivacyTypeConverter.cs" />
+    <Compile Include="TraktHandler.cs" />
+    <Compile Include="Url.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

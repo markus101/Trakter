@@ -1,0 +1,28 @@
+﻿    [
+    {
+    "title":"Game of Thrones",
+    "year":2011,
+    "url":"http://trakt.tv/show/game-of-thrones",
+    "first_aired":1303023600,
+    "country":"United States",
+    "overview":"Based on the fantasy novel series \"A Song of Ice and Fire,\" \"Game of Thrones\" explores the story of an epic battle among seven kingdoms and two ruling families in the only game that matters - the Game of Thrones. All seek control of the Iron Throne, the possession of which ensures survival through the 40-year winter to come.",
+    "runtime":60,
+    "network":"HBO",
+    "air_day":"Sunday",
+    "air_time":"9:00pm",
+    "certification":"TV-MA",
+    "imdb_id":"tt0944947",
+    "tvdb_id":"121361",
+    "tvrage_id":"24493",
+    "images":{
+    "poster":"http://vicmackey.trakt.tv/images/posters/1395.1.jpg",
+    "fanart":"http://vicmackey.trakt.tv/images/fanart/1395.1.jpg"
+    },
+    "ratings":{
+    "percentage":98,
+    "votes":1253,
+    "loved":1230,
+    "hated":23
+    }
+    }
+    ]
